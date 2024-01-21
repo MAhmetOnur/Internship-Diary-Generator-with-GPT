@@ -51,7 +51,7 @@ def daily_internship_diary(day_of_internship, todays_topic):
     return dairy
 
 
-st.title("Pharmacy Internship Diary Generator")
+st.title("Internship Diary Generator")
 
 day_of_internship = st.text_input("Day of Internship:")
 todays_topic = st.text_area("Today's Topic:")
